@@ -1,8 +1,37 @@
 body{
-    background: linear-gradient(to bottom right, #ff69b4,#ffe6cc);
-    margin: 0;
-    height: 100%;
+    background-color: black;
 }
+.signup-container{
+    background: linear-gradient(to bottom right, #ff69b4,#ffe6cc);
+    padding: 20px;
+    padding-left: 0;
+}
+.signup-form-wrapper{
+    max-width: 800px;
+    margin:0 auto;
+    padding: 20px;
+    position: relative;
+    display: flex;
+
+}
+.signup-image{
+    width: 200px;
+    height: 500px;
+}
+.signup-form-wrapper h1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+}
+.signup-form{
+    padding: 20px;
+}
+
 h1{
-    color: blueviolet;
+    color: rgba(241, 235, 247,0.75);
+    background-color: rgba(0,0,0,0.5);
+    background-attachment: fixed;
+    padding: 10px;
+    width: 27%;
 }

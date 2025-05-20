@@ -7,18 +7,17 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="img-container">
-      <img src="images/crystal-img.jpg" alt="crystal image" width="300">
-    </div>
-    <div class="header-container"><h1>Loki</h1></div>
-    <div class="form-container">
-    <p>Please fill out this form with the required information to sign-up</p>
-    <form method="post" action=''>
+    <div class="signup-container">
+      <div class="signup-form-wrapper">
+      <img src="images/marble-pink.jpg" class="signup-image" alt="crystal image" width="300">
+      <h1>Loki</h1>   
+      <form class="signup-form" method="post" action='#'>
+      <p>Please fill out this form with the required information to sign-up</p>
       <fieldset>
         <label for="first-name">First Name: <input id="first-name" name="first-name" type="text" required /></label>
         <label for="last-name">Last Name: <input id="last-name" name="last-name" type="text" required /></label>
         <label for="email">Email: <input id="email" name="email" type="email" required /></label>
-        <label for="number">Phone Number</label>
+        <label for="number">Phone Number: <input id="mobile" name="mobile" type="tel" required maxlength="10" /></label>
         <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
         <label for="new-password">Confirm Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
       </fieldset>
@@ -34,6 +33,7 @@
       <input type="submit" value="Create Account" />
       <p>Already have an account? <a href="">Log in</a></p>
     </form>
+      </div>
     </div>
 </body>
 </html>
